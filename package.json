@@ -1,31 +1,33 @@
 {
-  "name": "quasar-project",
-  "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
-  "author": "ekimov_vd <ekimov_vd@mail.ru>",
-  "private": true,
-  "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev",
-    "build": "quasar build"
-  },
-  "dependencies": {
-    "@quasar/extras": "^1.16.4",
-    "quasar": "^2.16.0",
-    "uuid": "^11.0.2",
-    "vue": "^3.4.18",
-    "vue-router": "^4.0.12"
-  },
-  "devDependencies": {
-    "@quasar/app-vite": "^1.9.0",
-    "@types/node": "^20.14.8",
-    "autoprefixer": "^10.4.2",
-    "typescript": "~5.5.4"
-  },
-  "engines": {
-    "node": "^20 || ^18 || ^16",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
-  }
+    "name": "tree",
+    "version": "0.0.1",
+    "description": "A Tree Project",
+    "productName": "Tree App",
+    "author": "ekimov_vd <ekimov_vd@mail.ru>",
+    "private": true,
+    "scripts": {
+        "test": "echo \"No test specified\" && exit 0",
+        "dev": "quasar dev",
+        "build": "quasar build",
+        "deploy": "gh-pages -d dist/spa"
+    },
+    "dependencies": {
+        "@quasar/extras": "^1.16.4",
+        "quasar": "^2.16.0",
+        "uuid": "^11.0.2",
+        "vue": "^3.4.18",
+        "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+        "@quasar/app-vite": "^1.9.0",
+        "@types/node": "^20.14.8",
+        "autoprefixer": "^10.4.2",
+        "gh-pages": "^6.2.0",
+        "typescript": "~5.5.4"
+    },
+    "engines": {
+        "node": "^20 || ^18 || ^16",
+        "npm": ">= 6.13.4",
+        "yarn": ">= 1.21.1"
+    }
 }
