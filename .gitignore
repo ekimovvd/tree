@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Quasar build output
+/dist/
+/public/
+/ssr/
+/spa/
+/pwa/
+/bex/
+/electron/
+/cordova/
+/capacitor/
+/.QUASAR/
+
+# Local development files
+.idea/
+.vscode/
+.DS_Store
+
+# Other
+*.local
+.env
+.env.*
+.local
+
+# MacOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
