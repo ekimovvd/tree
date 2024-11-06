@@ -12,6 +12,9 @@
         "deploy": "gh-pages -d dist/spa"
     },
     "dependencies": {
+        "@capacitor/android": "^6.1.2",
+        "@capacitor/cli": "^6.1.2",
+        "@capacitor/core": "^6.1.2",
         "@quasar/extras": "^1.16.4",
         "quasar": "^2.16.0",
         "uuid": "^11.0.2",

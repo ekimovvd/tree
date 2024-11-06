@@ -1,0 +1,12 @@
+{
+  "name": "tree",
+  "version": "0.0.1",
+  "description": "A Tree Project",
+  "author": "ekimov_vd <ekimov_vd@mail.ru>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}
